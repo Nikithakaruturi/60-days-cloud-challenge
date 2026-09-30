@@ -45,6 +45,6 @@ I created a local Git repository and practiced the basic Git workflow:
 I learned how Git tracks changes in files and how commits are used to save changes in a repository. I also learned the basic workflow of checking changes, staging files, and creating commits.
 
 **Practice Screenshot**
-![Git Practice](git-practice.png)
+![Git Practice](Git-practice.png)
 
 Week 0 – Day 3: Completed

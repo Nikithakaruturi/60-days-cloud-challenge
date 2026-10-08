@@ -4,7 +4,7 @@
 
 Learn how Amazon S3 can be used to host a static website.
 
-**Topics Planned**
+**Topics Practiced**
 
 - Amazon S3
 - S3 Buckets
@@ -13,19 +13,24 @@ Learn how Amazon S3 can be used to host a static website.
 - HTML Website Deployment
 - S3 Bucket Permissions
 
-**Planned Hands-on Practice**
+**Hands-on Practice**
 
-- Create an Amazon S3 bucket
-- Create a simple HTML webpage
-- Upload the HTML file to S3
-- Enable static website hosting
-- Configure the index document
-- Access the website using the S3 website endpoint
+- Created an Amazon S3 bucket
+- Created a simple HTML webpage
+- Uploaded the `index.html` file to S3
+- Enabled static website hosting
+- Configured `index.html` as the index document
+- Configured public read access for the website
+- Accessed the website using the S3 website endpoint
 
 **What I Learned**
 
-I learned how Amazon S3 can be used to store website files and how static website hosting works.
+I learned how Amazon S3 can be used to store website files and host a static website. I also learned how to configure static website hosting and make the website accessible through an S3 website endpoint.
+
+**Practice Screenshot**
+
+![AWS Static Website](aws-static-website.png)
 
 **Status**
 
-**Week 1 – Day 8: In Progress**
+**Week 1 – Day 8: Completed**

@@ -57,8 +57,10 @@ resource "aws_security_group" "terraform_sg" {
   }
 
   tags = {
-    Name = "terraform-day19-sg"
+    Name    = "terraform-day19-sg"
+    Purpose = "Week3-State-Practice"
   }
+
 }
 
 resource "aws_instance" "terraform_vm" {

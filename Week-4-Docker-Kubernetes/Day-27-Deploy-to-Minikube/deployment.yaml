@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: day24-web-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: day24-web-app
+  template:
+    metadata:
+      labels:
+        app: day24-web-app
+    spec:
+      containers:
+        - name: day24-web-app
+          image: day24-web-app:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 80

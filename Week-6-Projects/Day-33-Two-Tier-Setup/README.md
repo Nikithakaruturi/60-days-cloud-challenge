@@ -38,3 +38,22 @@ Set up the initial structure for a two-tier application using Python and Flask.
 
 **Result**
 Successfully created and tested the initial Flask application setup. MySQL integration and Docker Compose configuration will be completed in the upcoming project days.
+---
+
+**Day 34 - Flask Application Development**
+
+**Completed Tasks**
+- Created a Flask home page with an HTML form.
+- Implemented a POST route to process form submissions.
+- Retrieved user input using Flask request.
+- Created a result page using Jinja2 templates.
+- Tested form submission successfully.
+- Verified the health-check endpoint.
+
+**Application Routes**
+- `/` - Displays the home page and input form.
+- `/submit` - Processes submitted form data.
+- `/health` - Returns application health status.
+
+**Result**
+Successfully developed and tested a Flask application with form submission and dynamic response handling.

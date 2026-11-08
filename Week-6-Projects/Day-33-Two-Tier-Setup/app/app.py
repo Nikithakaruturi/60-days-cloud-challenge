@@ -1,10 +1,19 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
 @app.route("/")
 def home():
     return render_template("index.html")
+
+@app.route("/submit", methods=["POST"])
+def submit():
+    username = request.form.get("username")
+
+    if not username:
+        return "Please enter your name."
+
+    return render_template("result.html", username=username)
 
 @app.route("/health")
 def health():

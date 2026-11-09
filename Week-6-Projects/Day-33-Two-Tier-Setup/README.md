@@ -57,3 +57,27 @@ Successfully created and tested the initial Flask application setup. MySQL integ
 
 **Result**
 Successfully developed and tested a Flask application with form submission and dynamic response handling.
+
+
+---
+
+**Day 35 - MySQL Database Integration**
+
+**Completed Tasks**
+- Downloaded and started MySQL 8.0 using Docker.
+- Created the `two_tier_db` database.
+- Created the `users` table with ID, username, and timestamp columns.
+- Connected the Flask application to MySQL using `mysql-connector-python`.
+- Used environment variables to configure database credentials.
+- Implemented database insertion when users submit the form.
+- Verified that submitted user records were saved successfully.
+
+**Database Details**
+- Database: `two_tier_db`
+- Table: `users`
+- Database container: `two-tier-mysql`
+- MySQL host port: `3307`
+
+**Result**
+
+Successfully integrated MySQL with the Flask application and verified that submitted usernames are stored in the database.

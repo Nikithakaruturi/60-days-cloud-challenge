@@ -81,3 +81,35 @@ Successfully developed and tested a Flask application with form submission and d
 **Result**
 
 Successfully integrated MySQL with the Flask application and verified that submitted usernames are stored in the database.
+
+
+---
+
+**Day 36 - Docker Compose and Two-Tier Application Testing**
+
+**Completed Tasks**
+- Created a Dockerfile to containerize the Flask application.
+- Created a Docker Compose configuration for Flask and MySQL.
+- Configured communication between the application and database containers.
+- Reused the existing MySQL persistent volume.
+- Built and started both containers using Docker Compose.
+- Verified that the MySQL container became healthy.
+- Tested the Flask home page and health-check endpoint.
+- Submitted user data through the application.
+- Verified that submitted records were stored successfully in MySQL.
+
+**Docker Services**
+- `web` - Flask application running on port 5000.
+- `db` - MySQL 8.0 database running on port 3306 inside the container.
+- Persistent volume: `two_tier_mysql_data`.
+
+**Testing Results**
+- Docker Compose containers started successfully.
+- Flask application accessible at `http://localhost:5000`.
+- Health endpoint returned a healthy status.
+- Form submission worked successfully.
+- MySQL records were retrieved using `SELECT * FROM users;`.
+
+**Result**
+
+Successfully containerized and tested a two-tier Flask and MySQL application using Docker Compose with persistent database storage.

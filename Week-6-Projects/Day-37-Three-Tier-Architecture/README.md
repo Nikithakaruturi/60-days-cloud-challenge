@@ -34,3 +34,27 @@ Build a three-tier web application with a React frontend, Flask REST API backend
 
 **Result**
 Created the initial frontend and backend structure for a three-tier Employee Management System.
+
+
+**Day 38 - React Frontend and Flask API Integration**
+
+**Objective**
+Connect the React frontend with the Flask REST API.
+
+**Completed Tasks**
+- Created the Employee Management System interface using React.
+- Added employee name, email, and department input fields.
+- Connected React to the Flask backend using Fetch API.
+- Implemented GET API to retrieve employee records.
+- Implemented POST API to add new employees.
+- Configured Flask-CORS for frontend-backend communication.
+- Tested employee creation and retrieval.
+- Verified frontend and backend integration.
+
+**API Endpoints**
+- GET /api/health - Check backend status.
+- GET /api/employees - Retrieve employee records.
+- POST /api/employees - Add a new employee.
+
+**Result**
+Successfully connected the React frontend with the Flask REST API. Employees can be added and displayed in the Employee Management System.

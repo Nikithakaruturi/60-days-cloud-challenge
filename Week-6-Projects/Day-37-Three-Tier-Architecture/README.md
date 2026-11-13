@@ -58,3 +58,24 @@ Connect the React frontend with the Flask REST API.
 
 **Result**
 Successfully connected the React frontend with the Flask REST API. Employees can be added and displayed in the Employee Management System.
+
+
+**Day 39 - MySQL Database Integration**
+
+**Objective**
+Connect Flask REST API with MySQL for persistent employee storage.
+
+**Completed Tasks**
+- Reused the existing MySQL Docker container.
+- Created the employee_management database.
+- Created the employees table.
+- Configured database credentials using backend .env.
+- Connected Flask to MySQL using mysql-connector-python.
+- Loaded environment variables using python-dotenv.
+- Updated GET /api/employees to retrieve records from MySQL.
+- Updated POST /api/employees to insert records into MySQL.
+- Tested employee creation and retrieval.
+- Verified records through the React frontend.
+
+**Result**
+Connected the Flask API to MySQL. Employee records are stored persistently in the employee_management database.

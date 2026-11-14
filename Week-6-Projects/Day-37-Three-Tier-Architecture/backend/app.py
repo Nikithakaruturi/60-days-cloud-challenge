@@ -10,7 +10,12 @@ load_dotenv()
 app = Flask(__name__)
 
 CORS(app, resources={
-    r"/api/*": {"origins": "http://localhost:5173"}
+    r"/api/*": {
+        "origins": [
+            "http://localhost:5173",
+            "http://localhost:8080"
+        ]
+    }
 })
 
 

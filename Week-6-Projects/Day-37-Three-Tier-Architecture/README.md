@@ -79,3 +79,36 @@ Connect Flask REST API with MySQL for persistent employee storage.
 
 **Result**
 Connected the Flask API to MySQL. Employee records are stored persistently in the employee_management database.
+
+
+**Day 40 - Docker Compose Deployment**
+
+**Objective**
+
+Containerize and deploy the Three-Tier Employee Management System using Docker Compose.
+
+**Completed Tasks**
+- Created a Dockerfile for the Flask backend.
+- Created a multi-stage Dockerfile for the React frontend.
+- Created Docker ignore files.
+- Configured Docker Compose.
+- Connected the frontend, backend, and existing MySQL database.
+- Built frontend and backend Docker images.
+- Started the application using Docker Compose.
+- Verified backend health and employee API endpoints.
+- Tested employee creation and retrieval.
+- Verified employee records through the Dockerized frontend.
+
+**Docker Containers**
+- employee-frontend - React frontend served by Nginx.
+- employee-backend - Flask REST API.
+- two-tier-db - Existing MySQL database container.
+
+**Application URLs**
+- Frontend: http://localhost:8080
+- Backend: http://localhost:5000
+- Health API: http://localhost:5000/api/health
+
+**Result**
+
+Successfully deployed the Three-Tier Employee Management System using Docker Compose. The React frontend, Flask backend, and MySQL database communicate successfully, and employee records are stored persistently.
